@@ -1,0 +1,103 @@
+﻿Benchmark Validation File - DO NOT MODIFY! If you do, it will fail validation.
+
+Validation Version:    1.3
+
+Program:               y-cruncher v0.7.6 Build 9489
+Tuning:                14-BDW ~ Kurumi
+
+User:                  None Specified - You can edit this in "Username.txt".
+
+Operating System:      Windows 6.1 Build 7601
+
+Processor(s):
+    Name:              Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
+    Logical Cores:     4
+    Physical Cores:    2
+    Sockets:           1
+    NUMA Nodes:        1
+    Base Frequency:    3,696,115,520 Hz
+
+Motherboard:
+    Manufacturer:      Gigabyte Technology Co., Ltd.
+    Model:             B150M-D3H-CF
+    Version:           x.x
+    Serial Number:     Suppressed - Personally identifiable information is opt-in only.
+
+Memory:
+    Usable Memory:     4,149,161,984 (3.86 GiB)
+    Total Memory:      4,294,967,296 (4.00 GiB)
+    DIMM:              4.00 GiB - Kingston - KHX2400C15D4/4G     
+
+Constant:              Pi
+Algorithm:             Chudnovsky Formula
+Decimal Digits:        25,000,000
+Hexadecimal Digits:    Disabled
+Computation Mode:      Ram Only
+Threading Mode:        None (No Multi-threading)  ->  1 / ?
+Working Memory:        130,790,736 ( 125 MiB)
+Total Memory:          232,420,688 ( 222 MiB)
+
+Start Date:            Sun Dec  2 16:24:20 2018
+End Date:              Sun Dec  2 16:24:28 2018
+
+Total Computation Time:    6.120 seconds
+Start-to-End Wall Time:    7.831 seconds
+
+CPU Utilization:           97.63 %  +  0.00 % kernel overhead
+Multi-core Efficiency:     24.41 %  +  0.00 % kernel overhead
+
+Last Decimal Digits:
+3803750790 9491563108 2381689226 7224175329 0045253446  :  24,999,950
+0786411592 4597806944 2455112852 2554677483 6191884322  :  25,000,000
+
+SHA256-dec(25,000,001 - 25,000,100): 4abe7f52d10ed8dc765fef00f5d12642731b99bc8394080ead80b4e38d477fa8
+
+Dec Counts: {2500496,2499915,2500707,2499313,2502826,2500139,2499603,2498290,2499189,2499522}
+
+Dec Hash: Floor(x * 10^dec) mod (2^61 - 1) = 1692187194272191174
+
+Spot Check:                 Good through 25,000,000
+Timer Sanity Check:         Passed
+Frequency Sanity Check:     Disabled in this version of y-cruncher
+Reference Clock:            TSC
+Reference Clock 0:          3,609,482
+Reference Clock 1:          108,774,746
+Reference Clock 2:          2,845,534
+Is Debugger Present:        No
+Is Contiguous:              Yes
+ECC Recovered Errors:       0
+Colors:                     Yes
+
+Event Log:
+Sun Dec  2 16:24:20 2018	0.034	Working Memory
+Sun Dec  2 16:24:20 2018	0.113	Working Memory:  126 MiB  (locked, spread: 100%/1)
+Sun Dec  2 16:24:20 2018	0.115	Twiddle Tables
+Sun Dec  2 16:24:20 2018	0.209	Twiddle Tables: 98.0 MiB  (locked, spread: 100%/1)
+Sun Dec  2 16:24:20 2018	0.210	Begin Computation
+Sun Dec  2 16:24:20 2018	0.211	Summing Series
+Sun Dec  2 16:24:20 2018	0.211	Series: A ( 13 ) 0.000%
+Sun Dec  2 16:24:20 2018	0.213	Series: A ( 12 ) 0.012%
+Sun Dec  2 16:24:20 2018	0.238	Series: A ( 11 ) 1.042%
+Sun Dec  2 16:24:20 2018	0.268	Series: E ( 10 ) 2.072%
+Sun Dec  2 16:24:20 2018	0.299	Series: E ( 9 ) 3.103%
+Sun Dec  2 16:24:20 2018	0.340	Series: E ( 8 ) 4.370%
+Sun Dec  2 16:24:20 2018	0.406	Series: E ( 7 ) 6.156%
+Sun Dec  2 16:24:20 2018	0.497	Series: E ( 6 ) 8.674%
+Sun Dec  2 16:24:21 2018	0.641	Series: E ( 5 ) 12.225%
+Sun Dec  2 16:24:21 2018	0.845	Series: E ( 4 ) 17.241%
+Sun Dec  2 16:24:21 2018	1.173	Series: E ( 3 ) 24.333%
+Sun Dec  2 16:24:22 2018	1.632	Series: E ( 2 ) 34.387%
+Sun Dec  2 16:24:22 2018	2.364	Series: E ( 1 ) 48.698%
+Sun Dec  2 16:24:23 2018	3.404	Series: E ( 0 ) 69.250%
+Sun Dec  2 16:24:25 2018	5.073	Finishing Series
+Sun Dec  2 16:24:25 2018	5.085	Division
+Sun Dec  2 16:24:25 2018	5.411	InvSqrt
+Sun Dec  2 16:24:26 2018	5.623	Final Multiply
+Sun Dec  2 16:24:26 2018	5.782	Base Converting
+Sun Dec  2 16:24:26 2018	6.333	Writing Decimal Digits
+Sun Dec  2 16:24:28 2018	7.829	End Computation
+
+----
+
+Checksum0: d0cf578974b6abfe8e882f65f05f435c91d8409231ad9a84d0d2f723a70195570de483dadfc45491b443d9815089189881b329b07eab764703bb1420b7c155df
+Checksum1: 8aa4a9755464187092dff21d0f2ff54aea0275351b6d6a60e2786344e43f709660369ae8acbb7cac52c502bc71db7c67e573386b28dc3fde237a61e562a082f4
